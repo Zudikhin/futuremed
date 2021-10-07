@@ -304,13 +304,13 @@ div:focus {
     display: flex;
   }
   .header_content ul li {
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .header_content ul li a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 22px;
+    line-height: 26px;
     color: #FFFFFF;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -339,6 +339,10 @@ div:focus {
 @media (min-width: 1600px) {
   .header_content ul li {
     margin-left: 77px;
+  }
+  .header_content ul li a {
+    font-size: 24px;
+    line-height: 29px;
   }
 }
 
@@ -638,4 +642,19 @@ div:focus {
     line-height: 33px;
     margin-left: 48px;
   }
+}
+
+.about {
+  position: relative;
+  background: url(../img/about/about_img.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.about_left_content_img {
+  display: none;
+}
+
+.about_right {
+  display: none;
 }
