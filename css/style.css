@@ -415,9 +415,9 @@ div:focus {
 
 .main {
   background: url(../img/main/background.jpg);
-  background-size: cover;
-  background-position: -137px center;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: -137px center !important;
+  background-repeat: no-repeat !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 23px 0px 40px 0px;
@@ -562,13 +562,13 @@ div:focus {
 
 @media (min-width: 768px) {
   .main {
-    background-position: 0px center;
+    background-position: 0px center !important;
   }
 }
 
 @media (min-width: 1200px) {
   .main {
-    background-position: center;
+    background-position: left center !important;
     padding: 93px 0px 91px 0px;
   }
   .main_block {
