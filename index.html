@@ -20,16 +20,16 @@
           </a>
           <ul>
             <li>
-              <a href="#">О конференции</a>
+              <a class="link_about">О конференции</a>
             </li>
             <li>
-              <a href="#">Спикеры</a>
+              <a class="link_conference">Спикеры</a>
             </li>
             <li>
-              <a href="#">Программа</a>
+              <a class="link_program">Программа</a>
             </li>
             <li>
-              <a href="#">Партнеры</a>
+              <a class="link_partners">Партнеры</a>
             </li>
           </ul>
 
@@ -643,22 +643,113 @@
       </div>
     </section>
 
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_content">
+          <h2>Регистрация</h2>
+          <div class="footer_content_form">
+            <form action="">
+              <p>
+                <span>
+                  <input type="text" placeholder="ФИО*">
+                </span>
+                <span>
+                  <input type="text" placeholder="Название компании*">
+                </span>
+                <span>
+                  <input type="text" placeholder="Телефон*">
+                </span>
+                <span>
+                  <input type="text" placeholder="Адрес электронной почты*">
+                </span>
+              </p>
+              <div class="footer_content_form_policy">
+                <label for="">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <span class="text">Согласен с <a href="#">условиями предоставления услуг</a></span>
+                </label>
+              </div>
+              <div class="footer_content_form_text">
+                *обязательно для заполнения
+              </div>
+              <input type="submit" value="Зарегистрироваться">
+            </form>
+          </div>
+        </div>
+        <div class="footer_right">
+          <img src="img/footer/mobile_left.png" alt="">
+          <div class="footer_right_border"></div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer_mobile">
+      <div class="footer_mobile_content">
+        <img src="img/footer/mobile_left.png" alt="">
+        <div class="footer_mobile_content_border"></div>
+      </div>
+    </div>
+
     <div class="header_dropdown">
       <ul>
         <li>
-          <a href="#">О конференции</a>
+          <a class="dropdown_link_about">О конференции</a>
         </li>
         <li>
-          <a href="#">Спикеры</a>
+          <a class="dropdown_link_conference">Спикеры</a>
         </li>
         <li>
-          <a href="#">Программа</a>
+          <a class="dropdown_link_program">Программа</a>
         </li>
         <li>
-          <a href="#">Партнеры</a>
+          <a class="dropdown_link_partners">Партнеры</a>
         </li>
       </ul>
     </div>
+
+    <div class="modal_registration">
+
+      <div class="modal_registration_close">
+        <img class="modal_registration_close_default" src="img/footer/close.png" alt="">
+        <img class="modal_registration_close_active" src="img/footer/close_hover.png" alt="">
+      </div>
+
+      <h2>Регистрация</h2>
+
+      <div class="modal_registration_form">
+        <form action="">
+          <p>
+            <span>
+              <input type="text" placeholder="ФИО*">
+            </span>
+            <span>
+              <input type="text" placeholder="Название компании*">
+            </span>
+            <span>
+              <input type="text" placeholder="Телефон*">
+            </span>
+            <span>
+              <input type="text" placeholder="Адрес электронной почты*">
+            </span>
+          </p>
+          <div class="footer_content_form_policy">
+            <label for="">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <span class="text">Согласен с <a href="#">условиями предоставления услуг</a></span>
+            </label>
+          </div>
+          <div class="footer_content_form_text">
+            *обязательно для заполнения
+          </div>
+          <input type="submit" value="Зарегистрироваться">
+        </form>
+      </div>
+
+    </div>
+
+    <div class="back_modal"></div>
     
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
